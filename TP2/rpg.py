@@ -37,8 +37,8 @@ class Personnage:
         return self.__pv
 
     @pv.setter
-    def pv(self, pdv):
-        self.__pv = pdv
+    def pv(self, pv):
+        self.__pv = pv
 
     def attaque(self, opposant:'Personnage') -> None:
         """ méthode gérant un échange de coup
